@@ -3,12 +3,6 @@ import { movies } from "../data";
 
 function Movies() {
 
-  // const displayGenres = movies.map((movie) => {
-  //   movie.genres.map((genre) => {
-  //     return <li>{genre}</li>
-  //   })
-  // })
-
   const displayMovies = movies.map((movie) => {
     return(
       <div key={movie.title}>
